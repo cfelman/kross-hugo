@@ -5,10 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Blog Post
+  label: About Us
 - type: directory
   path: exampleSite/content/english/blog
-  label: Post (en)
+  label: CARVR
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
@@ -22,17 +22,17 @@ sections:
   templates:
   - post
 - type: heading
-  label: Author
+  label: Authors
 - type: directory
   path: exampleSite/content/english/author
-  label: Author (en)
+  label: Firstname Lastname
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
   path: exampleSite/content/french/author
-  label: Author (fr)
+  label: Firstname Lastname
   create: documents
   match: "**/*"
   templates:
